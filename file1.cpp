@@ -2,8 +2,10 @@
 using namespace std;
 int main(){
 
-    cout<<"Hello to CPP";
-    cout<<"Welcome to Fanaven Professional CPP tutorials.";
+    string name;
+    cout<<"Enter your name: ";
+    cin>>name;
+    cout<<"Your name is "+name;
 
     return 0;
 }
