@@ -2,13 +2,14 @@
 using namespace std;
 int main(){
 
-    int age = 18;
-    string name = "Hamid";
-    float fee = 15.5;
-    bool isStudent = true;
-    cout<<name;
-    cout<<" is ";
-    cout<<age<<" years old "<<"and "<<name<<" is a student or not "<<isStudent<<". his fee is "<<fee;
+int a, b;
+    cout << "Enter two numbers: ";
+    cin >> a >> b;
+    cout << "Sum: " << a + b << endl;
+    cout << "Difference: " << a - b << endl;
+    cout << "Product: " << a * b << endl;
+    cout << "Division: " << a / b << endl;
+    cout << "Remainder: " << a % b << endl;
 
     return 0;
 }
