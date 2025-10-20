@@ -23,7 +23,7 @@ int main(){
 
 
     int a = 5;
-    int b = 2;
+    const int b = 2;
     // float f = a / b; //implecite
     float y = (float)a / b;
     cout<<a/b;
