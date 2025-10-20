@@ -22,11 +22,26 @@ int main(){
     // cout<<y;
 
 
-    int a = 5;
-    const int b = 2;
-    // float f = a / b; //implecite
-    float y = (float)a / b;
-    cout<<a/b;
+    // int a = 5;
+    // const int b = 2;
+    // // float f = a / b; //implecite
+    // float y = (float)a / b;
+    // cout<<a/b;
+
+    string name;
+    short age;
+    float height,weight;
+
+    cout<<"Enter your name: ";
+    cin>>name;
+    cout<<"Enter your age: ";
+    cin>>age;
+    cout<<"Enter your height: ";
+    cin>>height;
+    cout<<"Enter your weight: ";
+    cin>>weight;
+
+    cout<<"Your Name is "<<name<<" and you are "<<age<<" years old, and your height is "<<height<<" and your weight is "<<weight;
 
     return 0;
 }
