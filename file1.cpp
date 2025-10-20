@@ -44,12 +44,15 @@ int main(){
     // cout<<"Your Name is "<<name<<" and you are "<<age<<" years old, and your height is "<<height<<" and your weight is "<<weight;
 
 
-    float celsius,farenheit;
+    // float celsius,farenheit;
 
-    cout<<"Enter temperatur in celsius ";
-    cin>>celsius;
-    farenheit = (celsius * 9/5) + 32;
-    cout<<celsius<<"°C "<<farenheit<<"°F";
+    // cout<<"Enter temperatur in celsius ";
+    // cin>>celsius;
+    // farenheit = (celsius * 9/5) + 32;
+    // cout<<celsius<<"°C "<<farenheit<<"°F";
+
+    char c = 255;
+    cout<<c+1;
 
     return 0;
 }
