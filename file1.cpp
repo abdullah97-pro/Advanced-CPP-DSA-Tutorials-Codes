@@ -104,12 +104,17 @@ int main(){
     // 5+5-1+1*2/0+(10+5) = 
     // cout<<5+5-1+1*2/1+(10+5);
 
-    int x = 12;
-    int y = 1;
+    // int x = 12;
+    // int y = 1;
 
-    x+=y; // x = x + y -> x = 12 + 1
+    // x+=y; // x = x + y -> x = 12 + 1
 
-    cout<<x<<endl;
+    // cout<<x<<endl;
+
+
+    bool gender = false;
+    string gen = gender ? "Male":"Female";
+    cout<<gen<<endl;
 
     return 0;
 }
