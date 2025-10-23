@@ -93,12 +93,16 @@ int main(){
     // }
 
 
-    bool isRainy = false;
-    bool isCold = false;
+    // bool isRainy = false;
+    // bool isCold = false;
 
-    if(isRainy || isCold){
-        cout<<"It's "<<(!isCold ? "warm":"cold")<<" outside."<<endl;
-    }
+    // if(isRainy || isCold){
+    //     cout<<"It's "<<(!isCold ? "warm":"cold")<<" outside."<<endl;
+    // }
+
+
+    // 5+5-1+1*2/0+(10+5) = 
+    cout<<5+5-1+1*2/1+(10+5);
 
     return 0;
 }
