@@ -27,6 +27,10 @@ int main() {
     case '/':
         cout<<"Result: "<<num1/num2<<endl;
         break;
+    case '%':
+        cout<<"Result: "<<(int)num1%(int)num2<<endl;
+        break;
+    
     default:
         break;
     }
