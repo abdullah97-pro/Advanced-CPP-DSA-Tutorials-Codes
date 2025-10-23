@@ -13,5 +13,23 @@ int main() {
     cout<<"Enter Number 2: ";
     cin>>num2;
 
+    switch (ope)
+    {
+    case '+':
+        cout<<"Result: "<<num1+num2<<endl;
+        break;
+    case '-':
+        cout<<"Result: "<<num1-num2<<endl;
+        break;
+    case '*':
+        cout<<"Result: "<<num1*num2<<endl;
+        break;
+    case '/':
+        cout<<"Result: "<<num1/num2<<endl;
+        break;
+    default:
+        break;
+    }
+
     return 0;
 }
