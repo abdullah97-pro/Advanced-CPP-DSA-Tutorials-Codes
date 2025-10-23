@@ -51,8 +51,54 @@ int main(){
     // farenheit = (celsius * 9/5) + 32;
     // cout<<celsius<<"°C "<<farenheit<<"°F";
 
-    char c = 255;
-    cout<<c+1;
+    // char c = 255;
+    // cout<<c+1;
+
+
+    // int a = 7, b = 3;
+
+    // cout<<"Addition: "<<a+b<<"\n";
+    // cout<<"Division: "<<a/b<<endl;
+    // cout<<"Division: "<<(float)a/b<<endl;
+
+    // cout<<a<<endl; // 7
+    // cout<<a++<<endl; // 7 +1
+    // cout<<++a<<endl; //1+8=9
+
+    // int x = 2;
+
+    // cout<<x<<endl; // 2 -> 2
+    // cout<<x--<<endl; // 1 -> 2 , 2-1=1
+    // cout<<++x<<endl; // 2 -> 2
+    // cout<<x++<<endl; // 3 -> 2, 2+1=3
+    // cout<<--x<<endl; // 2, 3-1=2
+
+
+    // int x = 78, y = 30;
+
+    // cout<<(x == y)<<endl;
+    // cout<<(x != y)<<endl;
+    // cout<<(x > y)<<endl;
+    // cout<<(x < y)<<endl;
+    // cout<<(x >= y)<<endl;
+    // cout<<(x <= y)<<endl;
+
+    // int age = 19;
+    // bool hasID = false;
+
+    // if(age > 18 && hasID) {
+    //     cout<<"Access granted"<<endl;
+    // }else {
+    //     cout<<"Access faild"<<endl;
+    // }
+
+
+    bool isRainy = false;
+    bool isCold = false;
+
+    if(isRainy || isCold){
+        cout<<"It's "<<(!isCold ? "warm":"cold")<<" outside."<<endl;
+    }
 
     return 0;
 }
