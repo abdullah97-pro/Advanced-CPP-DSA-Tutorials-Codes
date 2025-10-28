@@ -30,15 +30,21 @@ int main(){
 
     // cout<<result<<endl;
 
+    // int age = 17;
 
-    int x = -12;
+    // if (age >= 18) {
+    //     cout<<"Valid"<<endl;
+    // }else {
+    //     cout<<"Try next year!"<<endl;
+    // }
 
-    if (x > 0) {
-        cout<<"Greater"<<endl;
-    }
 
-    if (x < 0) {
-        cout<<"Lower"<<endl;
+    int number = 45;
+
+    if (number % 2 == 0) {
+        cout<<"Even"<<endl;
+    }else {
+        cout<<"Odd"<<endl;
     }
 
     return 0;
