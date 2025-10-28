@@ -2,9 +2,9 @@
 using namespace std;
 int main(){
 
-    int x = 50;
-    int y = 40;
-    int result = x | y;
+    // int x = 50;
+    // int y = 40;
+    // int result = 99 | 66;
 
     // 128 64 32 16 8 4 2 1
     // 8   7  6  5  4 3 2 1
@@ -28,7 +28,18 @@ int main(){
     // 40 - 00101000
     // ?  - 00111010  - 32+16+8+2 -> 58
 
-    cout<<result<<endl;
+    // cout<<result<<endl;
+
+
+    int x = -12;
+
+    if (x > 0) {
+        cout<<"Greater"<<endl;
+    }
+
+    if (x < 0) {
+        cout<<"Lower"<<endl;
+    }
 
     return 0;
 }
