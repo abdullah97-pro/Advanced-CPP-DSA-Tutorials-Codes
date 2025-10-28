@@ -39,13 +39,32 @@ int main(){
     // }
 
 
-    int number = 45;
+    // int number = 45;
 
-    if (number % 2 == 0) {
-        cout<<"Even"<<endl;
+    // if (number % 2 == 0) {
+    //     cout<<"Even"<<endl;
+    // }else {
+    //     cout<<"Odd"<<endl;
+    // }
+
+
+    string size = "xxxxxl";
+
+    if (size == "s") {
+        cout<<"Small"<<endl;
+    }else if (size == "m") {
+        cout<<"Medium"<<endl;
+    }else if (size == "l") {
+        cout<<"Large"<<endl;
+    }else if (size == "xl")
+    {
+        cout<<"Extra Large"<<endl;
+    } else if (size == "xxl") {
+        cout<<"Double Extra Large"<<endl;
     }else {
-        cout<<"Odd"<<endl;
+        cout<<"3XL Thripl Extra Large"<<endl;
     }
+    
 
     return 0;
 }
