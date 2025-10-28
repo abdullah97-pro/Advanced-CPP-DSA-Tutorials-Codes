@@ -48,21 +48,37 @@ int main(){
     // }
 
 
-    string size = "xxxxxl";
+    // string size = "xxxxxl";
 
-    if (size == "s") {
-        cout<<"Small"<<endl;
-    }else if (size == "m") {
-        cout<<"Medium"<<endl;
-    }else if (size == "l") {
-        cout<<"Large"<<endl;
-    }else if (size == "xl")
-    {
-        cout<<"Extra Large"<<endl;
-    } else if (size == "xxl") {
-        cout<<"Double Extra Large"<<endl;
+    // if (size == "s") {
+    //     cout<<"Small"<<endl;
+    // }else if (size == "m") {
+    //     cout<<"Medium"<<endl;
+    // }else if (size == "l") {
+    //     cout<<"Large"<<endl;
+    // }else if (size == "xl")
+    // {
+    //     cout<<"Extra Large"<<endl;
+    // } else if (size == "xxl") {
+    //     cout<<"Double Extra Large"<<endl;
+    // }else {
+    //     cout<<"3XL Thripl Extra Large"<<endl;
+    // }
+
+
+    string txt = "drinks";
+    string txt2 = "cold";
+
+    if(txt == "drink") {
+        if (txt2 == "cold"){
+            cout<<"Cold Drink"<<endl;
+        }else if (txt2 == "hot") {
+            cout<<"Hot Tea"<<endl;
+        }
+    }else if (txt == "food") {
+
     }else {
-        cout<<"3XL Thripl Extra Large"<<endl;
+        cout<<"Not match"<<endl;
     }
     
 
