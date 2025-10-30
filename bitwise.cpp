@@ -66,20 +66,41 @@ int main(){
     // }
 
 
-    string txt = "drinks";
-    string txt2 = "cold";
+    // string txt = "drinks";
+    // string txt2 = "cold";
 
-    if(txt == "drink") {
-        if (txt2 == "cold"){
-            cout<<"Cold Drink"<<endl;
-        }else if (txt2 == "hot") {
-            cout<<"Hot Tea"<<endl;
-        }
-    }else if (txt == "food") {
+    // if(txt == "drink") {
+    //     if (txt2 == "cold"){
+    //         cout<<"Cold Drink"<<endl;
+    //     }else if (txt2 == "hot") {
+    //         cout<<"Hot Tea"<<endl;
+    //     }
+    // }else if (txt == "food") {
 
-    }else {
-        cout<<"Not match"<<endl;
-    }
+    // }else {
+    //     cout<<"Not match"<<endl;
+    // }
+
+
+    int x = 5;
+    int y = 3;
+    int result = x >> y;
+
+    // 5 - 0101
+    // 1 - 0001
+    // ?  01010
+    // ? 010100  2^2 = 4*5 = 20
+    // ?0101000  
+
+    // 5 - 0101
+    // 1 - 0001
+
+    // ?   0010|1   2^1 = 5/2
+    // ?   0001|01
+    // ?   0000|101
+
+
+    cout<<result<<endl;
     
 
     return 0;
