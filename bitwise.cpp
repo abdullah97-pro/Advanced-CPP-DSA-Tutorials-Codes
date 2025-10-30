@@ -102,8 +102,22 @@ int main(){
 
     // cout<<result<<endl;
     
-    int a = -10;
-    cout<<~a<<endl;
+    // int a = -10;
+    // cout<<~a<<endl;
+
+
+    int age,total;
+
+    cout<<"Enter your age: "<<endl;
+    cin>>age;
+
+    total = age * 12;
+
+    if (total >= 216 ) {
+        cout<<"You are Eligible for vote. "<<endl;
+    }else {
+        cout<<"You are not Eligible for vote."<<endl;
+    }
 
     return 0;
 }
