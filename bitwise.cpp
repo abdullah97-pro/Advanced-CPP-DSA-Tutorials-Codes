@@ -82,9 +82,9 @@ int main(){
     // }
 
 
-    int x = 5;
-    int y = 3;
-    int result = x >> y;
+    // int x = 5;
+    // int y = 3;
+    // int result = x >> y;
 
     // 5 - 0101
     // 1 - 0001
@@ -100,8 +100,10 @@ int main(){
     // ?   0000|101
 
 
-    cout<<result<<endl;
+    // cout<<result<<endl;
     
+    int a = -10;
+    cout<<~a<<endl;
 
     return 0;
 }
