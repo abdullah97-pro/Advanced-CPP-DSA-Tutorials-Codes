@@ -59,11 +59,20 @@ int main(){
     //     cout<<i<<endl;
     // }
 
-    int x = 1;
-    do {
-        cout<<x<<endl;
-        x+=1;
-    }while(x < 10);
+    // int x = 1;
+    // do {
+    //     cout<<x<<endl;
+    //     x+=1;
+    // }while(x < 10);
+
+
+    for(int i = 1; i < 5; i++){
+        for(int j = 1; j < 11; j++) {
+            if(j == 4) continue;
+            cout<<i<<" * "<<j<<" = "<<i*j<<endl;
+        }
+        cout<<endl;
+    }
 
     return 0;
 }
