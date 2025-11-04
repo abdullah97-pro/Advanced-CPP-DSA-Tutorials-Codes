@@ -31,23 +31,39 @@ int main(){
     // }
 
 
-    int grade;
-    cout<<"Enter Grade: ";
-    cin>>grade;
+    // int grade;
+    // cout<<"Enter Grade: ";
+    // cin>>grade;
 
-    if(grade >= 90) {
-        cout<<"Grade: A"<<endl<<"Remark: Excellent"<<endl;
-    }else if(grade >= 75) {
-        cout<<"Grade: B"<<endl<<"Remark: Very Good"<<endl;
-    }else if(grade >= 60) {
-        cout<<"Grade: C"<<endl<<"Remark: Good"<<endl;
-    }else if(grade >= 50) {
-        cout<<"Grade: D"<<endl<<"Remark: Fair"<<endl;
-    }else {
-        cout<<"Grade: None"<<endl<<"Remark: Fail"<<endl;
-    }
+    // if(grade >= 90) {
+    //     cout<<"Grade: A"<<endl<<"Remark: Excellent"<<endl;
+    // }else if(grade >= 75) {
+    //     cout<<"Grade: B"<<endl<<"Remark: Very Good"<<endl;
+    // }else if(grade >= 60) {
+    //     cout<<"Grade: C"<<endl<<"Remark: Good"<<endl;
+    // }else if(grade >= 50) {
+    //     cout<<"Grade: D"<<endl<<"Remark: Poor"<<endl;
+    // }else {
+    //     cout<<"Grade: None"<<endl<<"Remark: Fail"<<endl;
+    // }
 
 
+    // int x = 1;
+
+    // while(x < 1) {
+    //     cout<<x<<endl;
+    //     x+=1;
+    // }
+
+    // for(int i = 1; i < 10; i++){
+    //     cout<<i<<endl;
+    // }
+
+    int x = 1;
+    do {
+        cout<<x<<endl;
+        x+=1;
+    }while(x < 10);
 
     return 0;
 }
